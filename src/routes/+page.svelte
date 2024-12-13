@@ -90,9 +90,4 @@
     padding: 1rem;
     border: 1px dashed var(--border-color);
   }
-
-  .status-message.error {
-    border-color: #ff3333;
-    color: #ff3333;
-  }
 </style> 
