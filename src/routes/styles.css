@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+:root {
+  --main-bg: #0a0a0a;
+  --text-color: #33ff33;
+  --border-color: #33ff33;
+}
+
+body {
+  background-color: var(--main-bg);
+  color: var(--text-color);
+  font-family: 'Press Start 2P', cursive;
+  padding: 2rem;
+  line-height: 1.6;
+}
+
+.message-feed {
+  max-width: 800px;
+  margin: 0 auto;
+  border: 2px solid var(--border-color);
+  padding: 1rem;
+  box-shadow: 4px 4px 0 var(--border-color);
+}
+
+.message {
+  margin: 1rem 0;
+  padding: 1rem;
+  border: 1px solid var(--border-color);
+  position: relative;
+}
+
+.message::before {
+  content: ">";
+  position: absolute;
+  left: -1rem;
+} 
